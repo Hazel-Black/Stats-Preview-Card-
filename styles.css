@@ -1,0 +1,17 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+/* mobile layout */
+@media (max-width:1439px){   
+.desktop-image{
+    display: none;
+}
+}
+/* desktop layout */
+@media (min-width:1440px){
+    .mobile-image{
+        display: none;
+    }
+
+}
