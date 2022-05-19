@@ -56,12 +56,13 @@ h1 span{
 .stats .stat{
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: center; 
    align-items: center;
 }
 /* spent alot of time trying to make this text identical to the design  */
+/* its the stats section some responsiveness that we'll be working on mainly,let me know if you notice any other issues*/
+/*please dont feel helpless,its all a process,its my fault,i shouldnt have jumped straight in,next time i'll remember to give you space to work on it*/ 
 .stats p{
-  
   color: hsla(0, 0%, 100%, 0.75);
 }
 /* Centered attributuition */
