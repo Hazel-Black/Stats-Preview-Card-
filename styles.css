@@ -23,7 +23,7 @@ body{
   margin: auto;
   left: 0;
   right: 0;
-  filter: brightness(70%);
+  filter: brightness(90%);
   border-radius: 20px 20px 0px 0px;
 }
 .overlay{
@@ -50,6 +50,8 @@ h1 span{
 }
 .text{
   text-align: center;
+  /* increses the margin around the text to match the design */
+  margin: 10px;
 }
 .text p{
   max-width: 300px;
@@ -73,20 +75,23 @@ h1 span{
 /* Centered attributuition */
 .attribution{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 80px;
 
-}
-
-/* mobile layout */
-@media (max-width:1439px){   
-.desktop-image{
-    display: none;
-}
 }
 /* desktop layout */
-@media (min-width:1440px){
-    .mobile-image{
-        display: none;
-    }
+@media (min-width:400px){
+.card{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.text{
+  display: flex;
+  flex-direction: column;
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+}
 
 }
