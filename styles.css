@@ -1,5 +1,5 @@
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
 }
 body{
     background-color: hsl(233, 47%, 7%);
@@ -23,7 +23,7 @@ body{
   margin: auto;
   left: 0;
   right: 0;
-  filter: brightness(70%);
+  filter: brightness(90%);
   border-radius: 20px 20px 0px 0px;
 }
 .overlay{
@@ -50,6 +50,8 @@ h1 span{
 }
 .text{
   text-align: center;
+  /* increses the margin around the text to match the design */
+  margin: 10px;
 }
 .text p{
   max-width: 300px;
@@ -58,23 +60,38 @@ h1 span{
   right: 0;
   margin: auto;
   text-align: center;
+  /* added color from style guide */
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
 }
+/* spent alot of time trying to make this text identical to the design  */
 .stats p{
   margin-top: -10px;
   font-weight: lighter;
-  color: gray;
-}
+  /* added a color from style guide */
+  color: hsla(0, 0%, 100%, 0.75);
 
-/* mobile layout */
-@media (max-width:1439px){   
-.desktop-image{
-    display: none;
 }
+/* Centered attributuition */
+.attribution{
+  text-align: center;
+  margin-top: 80px;
+
 }
 /* desktop layout */
-@media (min-width:1440px){
-    .mobile-image{
-        display: none;
-    }
+@media (min-width:400px){
+.card{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.text{
+  display: flex;
+  flex-direction: column;
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+}
 
 }
