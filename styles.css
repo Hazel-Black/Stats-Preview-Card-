@@ -1,5 +1,5 @@
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
 }
 body{
     background-color: hsl(233, 47%, 7%);
@@ -58,11 +58,23 @@ h1 span{
   right: 0;
   margin: auto;
   text-align: center;
+  /* added color from style guide */
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
 }
+/* spent alot of time trying to make this text identical to the design  */
 .stats p{
   margin-top: -10px;
   font-weight: lighter;
-  color: gray;
+  /* added a color from style guide */
+  color: hsla(0, 0%, 100%, 0.75);
+
+}
+/* Centered attributuition */
+.attribution{
+  text-align: center;
+  margin-top: 30px;
+
 }
 
 /* mobile layout */
