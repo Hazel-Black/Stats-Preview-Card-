@@ -1,5 +1,68 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
 body{
     background-color: hsl(233, 47%, 7%);
+    color: white;
+}
+.card{
+  background:hsl(244, 38%, 16%);
+  width: 350px;
+  position: relative;
+  margin: auto;
+  left: 0px;
+  right:0px;
+  top: 30px;
+  border-radius: 20px;
+  
+}
+.image{
+  height: 257px;
+  width: 350px;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  filter: brightness(70%);
+  border-radius: 20px 20px 0px 0px;
+}
+.overlay{
+  height: 257px;
+  width: 350px;
+  position: absolute;
+  top: 0;
+  background-color: hsl(277, 64%, 61%);
+  opacity:0.6;
+  border-radius: 8px 8px 0px 0px;
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats p{
+  text-align: center;
+  line-height: 2000px;
+}
+h1 span{
+  color:hsl(277, 64%, 61%) ;
+}
+.text{
+  text-align: center;
+}
+.text p{
+  max-width: 300px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+.stats p{
+  margin-top: -10px;
+  font-weight: lighter;
+  color: gray;
 }
 
 /* mobile layout */
