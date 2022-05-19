@@ -89,7 +89,7 @@ h1 span{
 .attribution{
   text-align: center;
   /* H. incresed the margin for mobile viewing fro 100px to 200px */
-  margin-top: 200px;
+  margin-top: 300px;
 }
 /* desktop layout */
 @media (min-width:1000px){
@@ -127,40 +127,13 @@ h1{
   padding: 30px 50px 30px 50px;
 }
 }
-@media (min-width:375px) and (max-width:1000px){
-  .card{
-    display: flex;
-    flex-direction: row-reverse;
-    
-    
-  }
-  .image-container{
-   
-    background-image: url(images/image-header-desktop.jpg);
-    border-radius: 0px 20px 20px 0px;
-  }
-  h1{
-    text-align: center;
-  }
-  .stats{
-    display: flex;
-    flex-direction:row;
-  }
-  .text{
-  
-    text-align: left;
-  }
-  h1{
-    text-align: left;
-  }
-
-  .left-section{
-    flex-direction: column;
-    justify-content:center;
-    align-items:flex-start;
-    gap: 20px;
-    /* H. this is the same as 30px 50px 30px 50px but its shotten to keep repition at a minimum */
-    padding: 30px 50px ;
-  }
+@media (min-width:500px) and (max-width:800px){
+ .text{
+   margin: 50px 30px;
+   width: 350px;
+ }
+ .attribution{
+   margin-top: 300px;
+ }
   
 }
