@@ -127,7 +127,7 @@ h1{
   padding: 30px 50px 30px 50px;
 }
 }
-@media (min-width:500px) and (max-width:800px){
+@media (min-width:500px) and (max-width:999px){/*M whats your hought on this*/
  .text{
    margin: 50px 30px;
    width: 350px;
@@ -135,5 +135,7 @@ h1{
  .attribution{
    margin-top: 300px;
  }
-  
+ .stats{
+  flex-direction:row;/*M im sorry for telling you not to but i thought it'd be cool*/
+}
 }
