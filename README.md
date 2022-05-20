@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL:(https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/responsive-mobile-first-htmlcss-dVV_ck9Y9k)
+- Live Site URL:(https://hazel-black.github.io/Stats-Preview-Card-/)
 
 ## My process
 
