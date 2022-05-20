@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/responsive-mobile-first-htmlcss-dVV_ck9Y9k)
-- Live Site URL:(https://hazel-black.github.io/Stats-Preview-Card-/)
+- Solution URL: [See the solution on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/responsive-mobile-first-htmlcss-dVV_ck9Y9k)
+- Live Site URL: [Visit the live site](https://hazel-black.github.io/Stats-Preview-Card-/)
 
 ## My process
 
@@ -53,7 +53,7 @@ I'm continuing to learn more and more about responsive design as I build more pr
 
 ## Authors
 
-- Youtube - [HazelBDev] (https://www.youtube.com/channel/UCCDWcbyG8rf6TC41EDGD4Rg)
+- Youtube - [HazelBDev](https://www.youtube.com/channel/UCCDWcbyG8rf6TC41EDGD4Rg)
 - Twitter - [@HazelBDev](https://twitter.com/HazelBDev)
 
 - Twitter - [@micheal_olu](https://twitter.com/micheal_olu99)
