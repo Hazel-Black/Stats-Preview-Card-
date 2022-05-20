@@ -8,17 +8,16 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [Our process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [What We learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
-
+ In this project I patnered up with Micheal and together we concured this Front-End Mentor Challenge. We both hope you and enjoy. Any feedback is completly welcome. 
 ### The challenge
 
 Users should be able to:
@@ -27,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Desktop Layout](images/Screenshot%202022-05-19%20203104.png)
+![Mobile Layout](images/Screenshot%202022-05-19%20203148.png)
 
 ### Links
 
@@ -42,33 +41,19 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- Mobile First 
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-### Continued development
+I'm continuing to learn more and more about responsive design as I build more projects.  With Micheal's help I was able to fully grasp what I was learning and implement it effortlessly. We are also both learning what it means to be a team and slowly but surley evolving our mindset to suit the team enviroment.
 
 
-### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+### Continued develelopment
+ As a team we will continue to learn and grow with each other. Im proud to see this project in completion. it reminds me that there are great things to come for the both of us. as we learn and grow we will try our best to maintain the same determination that went into this project. 
 
 ## Authors
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Youtube - [HazelBDev] (https://www.youtube.com/channel/UCCDWcbyG8rf6TC41EDGD4Rg)
+- Twitter - [@HazelBDev](https://twitter.com/HazelBDev)
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@micheal_olu](https://twitter.com/micheal_olu99)
