@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*i added margin,padding and box-sizing so that we have better control over the layout*/
 }
 body{
     background-color: hsl(233, 47%, 7%);
@@ -29,7 +28,6 @@ body{
     height: 50vh;
     background-size: cover;
     background-blend-mode: multiply;
-    /* background image was repeating to the right so i set it to no-repeat *//*great!!*/
     background-repeat: no-repeat;
     border-radius: 20px 20px 0px 0px;
 }
@@ -53,11 +51,9 @@ h1 span{
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* increses the margin around the text to match the design */
   gap: 15px;
 }
 .text p{
-  /* added color from style guide */
   color: hsla(0, 0%, 100%, 0.75);
   font-weight: 400;
   font-size: 15px;
@@ -77,21 +73,17 @@ h1 span{
    align-items: center;
    gap: 5px;
 }
-/* spent alot of time trying to make this text identical to the design  */
-/* its the stats section some responsiveness that we'll be working on mainly,let me know if you notice any other issues*/
-/*please dont feel helpless,its all a process,its my fault,i shouldnt have jumped straight in,next time i'll remember to give you space to work on it*/ 
 .stats .stat p{
   color: hsla(0, 0%, 100%, 0.75);
   text-transform: uppercase;
   font-family: 'Lexend Deca', sans-serif;
 }
-/* Centered attributuition */
+
 .attribution{
   text-align: center;
-  /* H. incresed the margin for mobile viewing fro 100px to 200px */
+ 
   margin-top: 300px;
 }
-/* desktop layout */
 @media (min-width:1000px){
 .card{
   display: flex;
@@ -112,13 +104,12 @@ h1{
   flex-direction:row;
 }
 .text{
-  /* set the text left to match the design */
   text-align: left;
 }
 h1{
   text-align: left;
 }
-/* adding a width to decrease the amount of space taken up by the image. please feel free to try a different method :) */
+
 .left-section{
   flex-direction: column;
   justify-content:center;
@@ -127,7 +118,7 @@ h1{
   padding: 30px 50px 30px 50px;
 }
 }
-@media (min-width:500px) and (max-width:999px){/*M whats your hought on this*/
+@media (min-width:500px) and (max-width:999px){
  .text{
    margin: 50px 0px;
    width: 400px;
@@ -136,6 +127,6 @@ h1{
    margin-top: 300px;
  }
  .stats{
-  flex-direction:row;/*M im sorry for telling you not to but i thought it'd be cool*/
+  flex-direction:row;
 }
 }
